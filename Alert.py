@@ -23,4 +23,3 @@ class Alert(object):
 		text = self._msg.as_string()
 		server.sendmail(self._srcAddr, self._dstAddr, text)
 		server.quit()
-		
