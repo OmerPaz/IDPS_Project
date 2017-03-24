@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<!-- greek   NemoyMedium-->
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nemoy" type="text/css"/>
+<!-- normal  GidoleRegular-->
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/gidole-regular" type="text/css"/>
+<!-- UniqueRegular-->
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/>
+
+<head>
+<style>
+body {
+    margin: 0;
+}
+
+h1 
+{
+   font-family: 'NemoyMedium';
+   font-weight: normal; 
+   font-style: normal; 
+   font-size: 70px;
+}
+h2
+{
+  font-family: 'GidoleRegular';
+  font-weight: normal;
+  font-size: 20px; 
+    font-style: normal;
+    margin-left: 10px;
+}
+div.transbox 
+{
+    background: no-repeat center center fixed; 
+    position:fixed;
+    top: 10%;
+    left: 15%;
+    border-radius: 25px;
+    margin: 22px;
+    
+    width:70%;
+    height:500px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+body{}
+</style>
+</head>
+<script type="text/javascript">
+  function about(){
+  window.location.href = "about.html";
+}
+function home(){
+  window.location.href = "home.html";
+}
+function contact(){
+  window.location.href = "contact.html";
+} 
+</script>
+<body>
+
+<ul>
+  <li><a class="active" href="/home.html" onclick="home()"">Home</a></li>
+  <li><a href="#about.html" onclick="about()">what is firewall</a></li>
+  <li><a href="#contact" onclick="contact()">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<div class="transbox" style="position:fixed;" >
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<h2>
+Firewall is a service provided by the device or dedicated program that is one of the computer’s security against burglary carried out by hackers. The purpose of a firewall is to filter incoming and outgoing data to a computer over a network or the Internet. Frequently firewall is a dedicated program that the user installs the operating system. Sometimes also the service that you can activate your Internet Service Provider for a small fee, or part of the network infrastructure – separate computer, network module or component of the router.</h2>
+<center><img src="https://conceptdraw.com/a167c4/p1/preview/640/pict--computer-security-diagram-firewall-between-lan-and-wan.png--diagram-flowchart-example.png" alt="Mountain View" style="width:304px;height:228px;"></center>
+
+</div></div>
+
+</body>
+</html>
